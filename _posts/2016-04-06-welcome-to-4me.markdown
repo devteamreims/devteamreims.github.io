@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to 4ME !"
 date:   2016-04-06 12:28:09 +0200
+author: Benjamin Beret
 ---
 We're pleased to announce the creation of the 4ME website.
 
@@ -11,5 +12,5 @@ You'll also find a [demo][demo-page] of the user interface.
 
 Expect updates about the development process here.
 
-[about-page]: /about/
-[demo-page]: /demo/
+[about-page]: {{site.baseurl}}/about/
+[demo-page]: {{site.baseurl}}/demo/
