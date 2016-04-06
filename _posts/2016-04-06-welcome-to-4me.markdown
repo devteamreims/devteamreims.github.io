@@ -11,5 +11,5 @@ You'll also find a [demo][demo-page] of the user interface.
 
 Expect updates about the development process here.
 
-[about-page]: about
-[demo-page]: demo
+[about-page]: /about/
+[demo-page]: /demo/
