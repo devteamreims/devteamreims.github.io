@@ -3,23 +3,45 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+  <h1>News</h1>
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        {{ post.excerpt }}
-      </li>
+      {% capture content_words %}
+        {{ post.content | number_of_words }}
+      {% endcapture %}
+      {% capture excerpt_words %}
+        {{ post.excerpt | number_of_words }}
+      {% endcapture %}
+      <div class="card">
+        <div class="card-content">
+          <h3 style="margin: 0;">
+            <a
+              href="{{post.url | preprend: site.baseurl}}"
+            >
+              {{post.title}}
+            </a>
+          </h3>
+          <div class="post-meta">
+            <span class="grey-text">
+              {{ post.date | date: "%b %-d, %Y" }}
+              {% if post.author %}
+                - {{post.author}}
+              {% endif %}
+            </span>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="card-content">
+          {{ post.excerpt }}
+        </div>
+        {% if content_words != excerpt_words %}
+        <div class="card-action">
+          <div style="text-align: right;">
+          <a class="blue-text" href="{{ post.url | prepend: site.baseurl }}">View more ...</a>
+          </div>
+        </div>
+        {% endif %}
+      </div>
     {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
