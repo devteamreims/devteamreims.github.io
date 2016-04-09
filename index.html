@@ -1,0 +1,31 @@
+---
+title: News
+keywords: news, blog, updates, release notes, announcements
+type: homepage
+toc: false
+sidebar: false
+permalink: /
+---
+
+<div class="home">
+
+    <div class="post-list">
+        {% for post in site.posts limit:10 %}
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </span>
+          <p>
+            {% if page.summary %}
+              {{ page.summary | strip_html | strip_newlines | truncate: 160 }}
+            {% else %}
+              {{ post.content | truncatewords: 50 | strip_html }} {% endif %}
+          </p>
+        {% endfor %}
+<hr />
+        <p>See more posts from the <a href="{{ "/news_archive/" | prepend: site.baseurl }}">News Archive</a>. </p>
+
+
+</div>
