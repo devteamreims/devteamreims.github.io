@@ -1,3 +1,3 @@
-## Jekyll Documentation theme
+## 4ME Website
 
-This is the readme page of the Jekyll documentation theme.
+This repo contains the 4ME website visible here : http://devteamreims.github.io/
