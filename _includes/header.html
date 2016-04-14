@@ -1,14 +1,27 @@
 <header class="site-header">
+  {% for my_page in site.data.nav.navigation %}
+    {% if my_page.items %}
+      <ul id="dropdown-{{ my_page.title}}" class="dropdown-content">
+        {% for subitem in my_page.items %}
+          <li>
+            <a href="{{ subitem.url | prepend: site.baseurl }}">{{ subitem.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
   <nav class="indigo">
     <div class="container nav-wrapper ">
       <a href="{{ site.baseurl }}/" class="brand-logo left">{{ site.title }}</a>
       <ul id="nav-mobile" class="right">
-        {% for my_page in site.pages %}
+        {% for my_page in site.data.nav.navigation %}
           {% assign activeClass = nil %}
           {% if page.url == my_page.url %}
             {% assign activeClass = 'active' %}
           {% endif %}
-          {% if my_page.title %}
+          {% if my_page.items %}
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown-{{my_page.title}}">{{my_page.title}}<i class="material-icons right">arrow_drop_down</i></a></li>
+          {% else %}
             <li class="{{activeClass}}">
               <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
             </li>

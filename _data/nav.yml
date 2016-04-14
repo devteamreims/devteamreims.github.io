@@ -1,0 +1,11 @@
+navigation:
+  - title: About
+    url: /about/
+  - title: Demo
+    url: /demo/
+  - title: Docs
+    items:
+      - title: User Doc
+        url: /docs/user/
+      - title: Dev Doc
+        url: /docs/dev/
