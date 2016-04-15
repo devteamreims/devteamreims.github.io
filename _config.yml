@@ -18,3 +18,13 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+      author: 'Development Team'
+      layout: 'post'
