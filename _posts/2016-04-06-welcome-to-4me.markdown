@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to 4ME !"
 date:   2016-04-06 12:28:09 +0200
 author: Benjamin Beret
+comments: true
 ---
 We're pleased to announce the creation of the 4ME website.
 <!--more-->
