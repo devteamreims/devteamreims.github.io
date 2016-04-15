@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  <h3>News</h3>
+  <h1>News</h1>
   <div class="post-list">
     {% for post in site.posts %}
       {% capture content_words %}
@@ -14,20 +14,18 @@ layout: default
       {% endcapture %}
       <div class="card">
         <div class="card-content">
-          <h3 style="margin: 0;">
-            <a
-              href="{{post.url | preprend: site.baseurl}}"
-            >
+          <a
+            href="{{post.url | preprend: site.baseurl}}"
+          >
+            <h3 style="margin: 0;">
               {{post.title}}
-            </a>
-          </h3>
+            </h3>
+          </a>
           <div class="post-meta">
-            <span class="grey-text">
-              {{ post.date | date: "%b %-d, %Y" }}
-              {% if post.author %}
-                - {{post.author}}
-              {% endif %}
-            </span>
+            {{ post.date | date: "%b %-d, %Y" }}
+            {% if post.author %}
+              • {{post.author}}
+            {% endif %}
           </div>
         </div>
         <div class="divider"></div>
