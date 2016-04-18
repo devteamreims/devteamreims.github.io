@@ -11,9 +11,9 @@ permalink: /demo/
 
 ## Control room
 [CWP #32]({{site.baseurl}}/demo/p32.html){: .btn}
-[CWP #33](){: .btn .disabled}
-[CTL Supervisor](){: .btn .disabled}
-[FMP](){: .btn .disabled}
+[CWP #33]({{site.baseurl}}/demo/p33.html){: .btn }
+[CTL Supervisor]({{site.baseurl}}/demo/spvr.html){: .btn}
+[FMP]({{site.baseurl}}/demo/fmp.html){: .btn}
 
 ## Maintenance/Supervision
 [Tech. Supervisor](){: .btn .disabled}
