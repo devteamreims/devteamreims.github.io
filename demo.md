@@ -10,7 +10,7 @@ permalink: /demo/
 >Recent versions of Chrome/Chromium should do fine. Firefox and Internet Explorer are not supported.
 
 ## Control room
-[CWP #32](http://4me.home.kouak.org/){: .btn}
+[CWP #32]({{site.baseurl}}/demo/p32.html){: .btn}
 [CWP #33](){: .btn .disabled}
 [CTL Supervisor](){: .btn .disabled}
 [FMP](){: .btn .disabled}
