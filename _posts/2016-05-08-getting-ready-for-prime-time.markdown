@@ -10,7 +10,7 @@ Multiple enhancements have been pushed to the demo, mostly in the XMAN component
 [See full list]({% post_url 2016-05-08-getting-ready-for-prime-time %})
 <!--more-->
 
-#### XMAN Issues :
+#### XMAN issues :
 - [Delay color](https://github.com/devteamreims/4ME/issues/30)
 - [Filter enhancement](https://github.com/devteamreims/4ME/issues/27)
 - [COP Column rework](https://github.com/devteamreims/4ME/issues/25)
