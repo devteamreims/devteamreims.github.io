@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tech. supervisor demo, more issues fixed"
-date:   2016-05-08 20:26:09 +0200
+date:   2016-05-16 14:26:34 +0200
 author: Benjamin Beret
 comments: true
 ---
