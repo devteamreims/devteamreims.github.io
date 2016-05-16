@@ -18,4 +18,4 @@ permalink: /demo/
 [FMP]({{site.baseurl}}/demos/fmp.html){: .btn}
 
 ## Maintenance/Supervision
-[Tech. Supervisor](){: .btn .disabled}
+[Tech. Supervisor]({{site.baseurl/demos/tech-spvr.html}}){: .btn}
