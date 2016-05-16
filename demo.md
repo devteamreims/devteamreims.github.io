@@ -19,4 +19,5 @@ permalink: /demo/
 
 ## Maintenance/Supervision
 >**Disclaimer:** Some components (XMAN FETCHERS and FLIGHT POSITIONS) are not reachable from the internet. Their status is not properly displayed in this demo.
-[Tech. Supervisor]({{site.baseurl/demos/tech-spvr.html}}){: .btn}
+
+[Tech. Supervisor]({{site.baseurl}}/demos/tech-spvr.html){: .btn}
