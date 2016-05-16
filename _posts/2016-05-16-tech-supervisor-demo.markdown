@@ -19,6 +19,7 @@ More issues have also been fixed throughout the whole stack.
 - [Dashboard page varies depending on CWP type](https://github.com/devteamreims/4ME/issues/50)
 - [Status page varies depending on CWP type](https://github.com/devteamreims/4ME/issues/48)
 - [Add time and date in the top bar](https://github.com/devteamreims/4ME/issues/51)
+- [Remove fantom scrollbar when keyboard is displayed](https://github.com/devteamreims/4ME/issues/55)
 
 #### XMAN Issues :
 - [Tweak mach advisory generation](https://github.com/devteamreims/4ME/issues/33)
