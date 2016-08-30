@@ -10,4 +10,4 @@ navigation:
       - title: Dev Doc
         url: /docs/dev/
   - title: Bugs
-    url: https://github.com/devteamreims/4ME
+    url: https://gitlab.com/devteamreims/4ME/issues
