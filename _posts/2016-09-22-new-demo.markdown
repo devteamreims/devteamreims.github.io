@@ -9,4 +9,4 @@ comments: true
 
 We've just implemented a new demo release process which should make it much easier for us to keep the demo up to date with the development.
 
-See it live [here](demo-page) !
+See it live [here](demo) !
