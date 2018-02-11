@@ -19,6 +19,9 @@ excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-redirect-from
+
 defaults:
   -
     scope:
